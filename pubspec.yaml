@@ -1,0 +1,71 @@
+name: body_trackr
+description: "Flutter Fitness Analysis App"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  supabase_flutter: ^2.9.0
+  intl: ^0.20.2
+  flutter:
+    sdk: flutter
+  percent_indicator: ^4.2.4
+  image_picker: ^1.0.4
+  json_annotation: ^4.8.1
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  build_runner: ^2.4.9
+  json_serializable: ^6.7.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logoApp.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/welcome.png
+    - assets/logo.png
+    - assets/logoNoName.png
+    - assets/logoPutih.png
+    - assets/logoPutihNoName.png
+    # olahraga
+    - assets/barbel.jpeg
+    - assets/bike.jpeg
+    - assets/calisthenics.jpg
+    - assets/jumpRope.jpg
+    - assets/pushUp.jpg
+    - assets/running.jpeg
+    - assets/soccer.jpeg
+    - assets/swim.jpg
+    - assets/taiChi.jpg
+    - assets/yoga.jpg
+    # makanan
+    - assets/ayamMadu.jpg
+    - assets/steak.jpg
+    - assets/salmon.jpg
+    - assets/scrambledEgg.jpg
+    - assets/udang.jpg
+    - assets/tempeBacem.jpg
+    - assets/tahu.jpg
+    - assets/yogurt.jpg
+    - assets/telurRebus.jpg
+    - assets/pisang.jpg
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-Italic.ttf
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
