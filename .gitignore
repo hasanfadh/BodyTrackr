@@ -1,8 +1,4 @@
 build/
 .dart_tool/
-.packages
-.pub-cache/
+.DS_Store
 .idea/
-.flutter-plugins
-.flutter-plugins-dependencies
-.melos_tool/
